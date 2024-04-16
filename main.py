@@ -33,7 +33,7 @@ class TopicModel:
         doc_term_matrix = [self.dictionary.doc2bow(doc) for doc in doc_clean]
         return doc_term_matrix
 
-    def train_lda_model(self, doc_term_matrix, num_topics=5, passes=5000):
+    def train_lda_model(self, doc_term_matrix, num_topics=3, passes=10000):
         self.ldamodel = gensim.models.ldamodel.LdaModel(doc_term_matrix, num_topics=num_topics, id2word=self.dictionary, passes=passes)
 
     def predict_topic(self, text):

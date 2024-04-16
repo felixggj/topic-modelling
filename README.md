@@ -49,9 +49,16 @@ This will process the predefined documents, train the LDA model, and save the to
 
 After running the script, you can open the `lda_visualization.html` file generated in the root directory to view the topic distribution visualization.
 
-## Contributing
+## Training datasets
 
-Contributions to this project are welcome! Please feel free to fork the repository, make improvements, and submit pull requests.
+- [Minimum Wage Spain](https://arxiv.org/pdf/2402.02402.pdf)
+- [Income in Thailand](https://arxiv.org/pdf/2404.09629.pdf)
+- [Labour Costs](https://arxiv.org/pdf/2401.07423.pdf)
+
+## Test dataset
+
+- [American Salaries](https://arxiv.org/pdf/2205.12892.pdf)
+
 
 ## License
 
