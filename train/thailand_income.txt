@@ -1,0 +1,279 @@
+Quantifying fair income distribution in
+Thailand
+Abstract
+Given a vast concern about high income inequality in Thailand as opposed to empirical findings around the world showing people’s preference for fair income inequality over unfair
+income equality, it is therefore important to examine whether inequality in income distribution in Thailand over the past three decades is fair, and what fair inequality in income distribution in Thailand should be. To quantitatively measure fair income distribution, this study
+employs the fairness benchmarks that are derived from the distributions of athletes’ salaries
+in professional sports which satisfy the concepts of distributive justice and procedural justice, the no-envy principle of fair allocation, and the general consensus or the international
+norm criterion of a meaningful benchmark. By using the data on quintile income shares and
+the income Gini index of Thailand from the National Social and Economic Development
+Council, this study finds that, throughout the period from 1988 to 2021, the Thai income
+earners in the bottom 20%, the second 20%, and the top 20% receive income shares more
+than the fair shares whereas those in the third 20% and the fourth 20% receive income
+shares less than the fair shares. Provided that there are infinite combinations of quintile
+income shares that can have the same value of income Gini index but only one of them is
+regarded as fair, this study demonstrates the use of fairness benchmarks as a practical
+guideline for designing policies with an aim to achieve fair income distribution in Thailand.
+Moreover, a comparative analysis is conducted by employing the method for estimating optimal (fair) income distribution representing feasible income equality in order to provide an
+alternative recommendation on what optimal (fair) income distribution characterizing feasible income equality in Thailand should be.
+
+Introduction
+Thailand has developed a society with high inequalities in income and wealth distributions [1].
+Despite a remarkable progress in poverty reduction in the past three decades, income inequality in Thailand remains high [2]. With the income Gini index of 0.433 in 2019, Thailand has
+the highest income inequality in East Asia [2]. The income data published by the Office of the
+National Economic and Social Development Council (NESDC) [3] shows that, in 2021, the
+income earners in the highest 20% have income shares approximately 50% of total income
+
+share while those in the lowest 80% have income shares about 50% of total income share. This
+pattern of income distribution has not markedly changed since 1988 [4]. Credit Suisse [5]
+ranks Thailand as one of the most unequal countries in the world in terms of wealth inequality,
+with the top 1% holding 56% of total wealth. Laovakul [6] examines the concentration of titled
+land and other wealth in Thailand and finds that the wealth gap in Thailand is very highly concentrated as 80% of titled land is owned by the richest 5% and more than two-thirds of the
+country’s assets is controlled by the richest 1%. Unequal patterns of ownership of land in turn
+lead to worsening economic and well-being conditions for poor farmers [7]. In addition, the
+United Nations Economic and Social Commission for Asia and Pacific [7] notes that income
+inequality causes a weakening of social bonds and an erosion of public trust in institutions
+which can raise social and political tensions and even lead to radicalization and crime. An
+empirical study by Lee et al. [8] shows that, in Asian countries including Thailand, an individual’s perception of high income inequality lowers political trust but this linkage varies among
+countries with different degrees of income inequality. According to the United Nations [9],
+income inequality looms large and hinders Thailand’s progress towards the Sustainable Development Goals (SDGs). As noted by the NESDC [10], the issue of income inequality in Thailand needs to be undertaken urgently in the Twelfth National Economic and Social
+Development Plan so that it does not become an obstacle to the country’s economic and social
+development. One of policy targets as stated in the Twelfth National Economic and Social
+Development Plan is to reduce income inequality across the Thai population groups by lowering the income Gini index to 0.410 [10]. This policy target is in line with the Target 10.1 of the
+SDG 10 that calls for actions to lower inequality in income distribution within a country by
+gradually accomplishing and maintaining income growth of the lowest 40% at a rate that is
+higher than the country average by 2030 [11].
+While there is a vast concern about high income inequality in Thailand, and reducing
+income inequality among different groups of population is considered an important goal as
+stated in Thailand Twelfth National Economic and Social Development Plan [10], a comprehensive study by Starmans et al. [12], drawing upon numerous studies in laboratory, cross-cultural research, as well as experiments with babies and young children, finds no evidence that
+people are bothered by income inequality itself but they are bothered by the issue that is often
+confounded with income inequality which is income unfairness. According to Starmans et al.
+[12], humans naturally favor fair income distributions, not equal ones, and when choosing
+between fair income inequality and unfair income equality, people prefer fair income inequality over unfair income equality. People even support substantial income inequality if they view
+as fair [13].
+Given an immense concern about high income inequality in Thailand as opposed to empirical findings around the world showing people’s preference for fair income inequality over
+unfair income equality, it is therefore important to examine whether inequality in income distribution in Thailand over the past three decades is fair, and what fair inequality in income distribution in Thailand should be. The findings from this study could enhance the
+understanding of income inequality and unfairness in income distribution which could benefit
+policymakers not only in evaluating the effectiveness of income redistributive measures but
+also in designing policies aimed to achieve fair income distribution across all population
+groups in Thailand.
+While there exists a vast literature on fair inequality that provide a comprehensive theoretical and normative framework for measuring fair income distribution which allows for different viewpoints on what should be regarded as fair income distribution, for example, Almås
+et al. [14], Cappelen and Tungodden [15], and Hufe et al. [16], to our knowledge, there are a
+few studies that attempt to propose a benchmark for quantifying fair income distribution,
+PLOS ONE
+Measuring fair income inequality in Thailand
+PLOS ONE | https://doi.org/10.1371/journal.pone.0301693 April 4, 2024 2 / 20
+Funding: TS received funding for this study from
+Ratchadapiseksompotch Fund, Chulalongkorn
+University, Award Number: RCU_67_026_001. TS
+received salary from Chulalongkorn University
+(https://www.chula.ac.th/en/). The funder had no
+role in study design, data collection and analysis,
+decision to publish, or preparation of the
+manuscript. KS received no specific funding for
+this work.
+Competing interests: The authors have declared
+that no competing interests exist.
+demonstrate the practical use of such a benchmark in order to gauge whether income distribution is fair, and provide a policy implication regarding how fair income distribution could be
+achieved based on the proposed benchmark. Those studies are Venkatasubramanian et al.
+[17], Park and Kim [18], and Sitthiyot and Holasut [19].
+Venkatasubramanian et al. [17] propose a method for measuring how much inequality in
+income distribution is fair. Venkatasubramanian et al. [17]’s method is based on the microeconomic game theoretic framework and the concept of maximum entropy in statistical mechanics and information theory. Venkatasubramanian et al. [17] show that, in a perfectly
+competitive free market comprising self-interest utility-maximizing and profit-maximizing
+rational agents with negligible transaction costs, no illegal practices, no taxes, and no externalities, the fairest income distribution, when such a market is in equilibrium, is log-normal.
+While Venkatasubramanian et al. [17]’s method has its own merit, this study would like to
+point out that the fairest income distribution being log-normal has a key limitation in that it
+characterizes an ideal free market operating under conditions that are not valid in real life as
+acknowledged by Venkatasubramanian et al. [17, p. 137]. Even though Venkatasubramanian
+et al. [17] find that, out of the sample of 12 developed countries, the empirical data on income
+distributions of four countries, namely, Norway, Sweden, Denmark, and Switzerland appear
+to be consistent with the outcome emerging from the ideal free market, the process of generating these outcomes in real life could differ since these countries operate under conditions that
+are totally different from what assumed in the microeconomic game theoretic model. Moreover, it is still debatable whether the distribution of income follows log-normal, gamma, power
+law [20], or a new type of distribution that has yet to be discovered. As noted by Chakrabarti
+et al. [21], scholars in economics, statistics, and physics tend to agree that the upper tail of
+income distribution could be well approximated by power law distribution but the lower tail of
+income distribution could be approximated by either one of these three distributions. For
+these reasons, all we can say is that log-normal distribution could be used to fit countries’
+income distributions. Whether the fairest distribution of income is log-normal in reality is not
+known since the exact process that generates this outcome is not specified in Venkatasubramanian et al. [17]’s study.
+Park and Kim [18] develop a method for estimating feasible income equality that maximizes
+total social welfare. Recognizing that perfect income equality is idealistic and practically infeasible in reality, Park and Kim [18] demonstrate that optimal (fair) income distribution representing feasible income equality could be estimated by using the sigmoid function and the
+Boltzmann distribution. Park and Kim [18] reason that, in physical sciences, the Boltzmann distribution is based on entropy maximization and provides the most probable, natural, and unbiased distribution of a physical system which could be applied to analyze fair distribution of
+income in social sciences. Regarding the sigmoid function, Park and Kim [18] reason that it
+could reflect an increase in welfare as income rises in reality. According to Park and Kim [18],
+when income is below the critical low-income threshold, the level of welfare would slowly
+increase as income rises. This is because a rise in income is still not enough to support the basic
+needs. However, when income increases beyond the critical low-income threshold, the level of
+welfare would start to rise rapidly since the basic needs are fulfilled and, hence, there would be
+more economic freedom. As income increases further, the degree of economic freedom also
+increases but becomes saturated once it reaches the critical high-income threshold, and so does
+the level of welfare. Beyond the critical high-income threshold, the level of welfare would gradually increase as income increases. By modeling total social welfare based on the sigmoid function
+and income distribution based on the Boltzmann distribution, optimal (fair) income distribution representing feasible income equality could be estimated and compared to the actual
+income distribution in order to determine whether the existing income distribution is fair [18].
+PLOS ONE
+Measuring fair income inequality in Thailand
+PLOS ONE | https://doi.org/10.1371/journal.pone.0301693 April 4, 2024 3 / 20
+The empirical analysis conducted by Park and Kim [18] shows that the estimated optimal
+(fair) quintile income shares of four selected countries, namely, the United States of America
+(U.S.A.), China, Finland, and South Africa are very close to each other. So are the estimated
+values of corresponding income Gini index calculated based on the optimal (fair) income distributions of these four countries. Their empirical results lead Park and Kim [18] to conclude
+that it is possible to have a feasible income equality benchmark that is time-independent and
+universally applicable to all countries in the world. However, this study would like to note that,
+based on the estimated results on optimal (fair) quintile income shares and the corresponding
+income Gini index of China vs. those of Finland as reported in Park and Kim [18] which are
+15.4% vs. 15.5% for the lowest quintile, 16.6% vs. 17.1% for the 2nd quintile, 17.9% vs. 18.5%
+for the 3rd quintile, 20.2% vs. 20.6% for the 4th quintile, and 29.9% vs. 28.4% for the highest
+quintile, as well as 0.130 vs. 0.120 for the income Gini index, it is hard to imagine, both theoretically and empirically, that the optimal (fair) income shares by quintile and the corresponding
+income Gini index of China with population of 1.412 billion [22] would be very similar to
+those of Finland with population of 5.541 million [22]. According to Deltas [23], theoretically,
+the income Gini index of a country with small population would be smaller than that of a
+country with larger population generated by the same stochastic process. Deltas [23] also notes
+that, for any given level of intrinsic inequality as expressed by income generating function, a
+reduction in the sample size would lead to a reduction in inequality as measured by the income
+Gini index. Empirically, a study by Sitthiyot and Holasut [24] who examine the statistical relationship between the income Gini index and population size of 69 countries indicates that
+countries with small number of population tend to have small values of the income Gini index
+whereas larger values of the income Gini index are observed for countries with large number
+of population. For these reasons, this study views that the optimal (fair) income distribution
+representing feasible income equality that is constructed based on the sigmoid welfare function
+and the Boltzmann distribution proposed by Park and Kim [18] could be considered a proof
+of principle that fair income distribution can be quantified. It could be used as a practical
+guideline for government policy interventions if the policy target is to achieve a feasible
+income equality society, provided that perfect income equality is idealistic and practically
+infeasible in the real world [18].
+Sitthiyot and Holasut [19] introduce a quantitative method for benchmarking fair income
+distribution for a particular value of income inequality as measured by the Gini index. Sitthiyot
+and Holasut [19]’s fairness benchmark is derived by using the actual data on distributions of
+athletes’ salaries from various professional sports in order to estimate the statistical relationship between the quintile salary shares of professional athletes and the Gini index for professional athletes’ salaries. According to Sitthiyot and Holasut [19], the rationale for using the
+distributions of actual athletes’ salaries in professional sports is based on the ideas of distributive justice and procedural justice. For distributive justice, fairness is associated with the extent
+to which the outcomes of processes that allocate benefits and costs satisfy the equity rule which
+requires that individual and/or groups should receive benefits and costs in proportion to their
+contributions [25]. For procedural justice, fairness is associated with processes by which the
+authorities enact rules, resolve disputes, and allocate benefits and costs [25] and people have to
+agree that benefits and costs they receive result from fair processes with regard to benefits and
+costs allocations [13].
+Provided that athletes’ salaries in professional sports are allocated based on contributions of
+individual athletes and/or team efforts, i.e. distributive justice, who compete according to fair
+and transparent rules as well as codes of conduct that are written and administered by international sports authorities, i.e. procedural justice, all of which are understandable to and could
+be watched and judged by ordinary people all over the world as fair, regardless of their origins,
+PLOS ONE
+Measuring fair income inequality in Thailand
+PLOS ONE | https://doi.org/10.1371/journal.pone.0301693 April 4, 2024 4 / 20
+backgrounds, religious believes, or economic statuses, fairness benchmark that is derived
+based on the salaries of professional athletes therefore satisfy the no-envy principle of fair allocation [26] and the general consensus or the international norm criterion of a meaningful
+benchmark [27].
+By using the data on income distribution of 75 countries, Sitthiyot and Holasut [19] demonstrate how the fairness benchmarks could be used to quantitatively measure whether quintile income shares of these countries are the fair shares for a particular value of the income
+Gini index, and what fair quintile income shares of these countries should be. The overall
+results indicate that the majority of income earners in the bottom 20%, the second 20% (35
+countries), and the top 20% receive income shares more than the fair shares whereas income
+earners in the second 20% (40 countries), the third 20%, and the fourth 20% receive income
+shares less than the fair shares. Given that there are infinite combinations of quintile income
+shares that could have the same value of income Gini index but only one of them is regarded
+as fair, by using Sitthiyot and Holasut [19]’s fairness benchmarks as a guideline, different
+countries could choose different combinations of fair quintile income shares and the income
+Gini index that are suitable for their own contexts before designing policies in order to achieve
+fair income distributions across all population groups.
+Based on the quantitative methods for benchmarking fair income distribution and their
+real-world applications as discussed above, along with the availability of data that can be used
+to conduct the analyses of fair income distribution in Thailand, this study chooses the method
+for benchmarking fair income distribution developed by Sitthiyot and Holasut [19] (SH
+method) in order to investigate whether inequality in income distribution in Thailand over the
+past three decades is fair, and to provide a practical guideline as to whether what fair income
+distribution among different groups of population in Thailand should be. In addition to SH
+method, this study conducts a comparative analysis of fair income distribution in Thailand by
+employing the method for estimating optimal (fair) income distribution representing feasible
+income equality proposed by Park and Kim [18] (PK method) in order to provide an alternative recommendation on what optimal (fair) income distribution characterizing feasible
+income equality in Thailand should be Discussion
+While reducing income inequality is considered by many as one of the top priorities for Thailand
+[1, 2, 7, 9–11], a thorough research by Starmans et al. [12] shows that, contrary to appearance, people around the world are not troubled by income inequality for its own sake and, indeed, they
+often prefer unequal income distributions both in laboratory conditions and in the real world.
+According to Starmans et al. [12], what really troubles people about the world we live in today is
+unfairness in income distribution. Therefore, it is important to investigate whether income
+inequality in Thailand during the past three decades is fair. If not, what fair income distribution in
+Thailand should be. The findings from this study could enhance the understanding of income
+inequality and unfair income distribution which could be useful for policymakers not only in
+assessing the effectiveness of income redistributive measures but also in designing policies aimed
+to achieve fair income distribution across all population groups in Thailand.
+To examine whether inequality in income distribution in Thailand is fair and to provide a
+guideline on what fair inequality in income distribution in Thailand should be, this study
+employs the fairness benchmarks based on SH method that are derived from the distributions
+of salaries of athletes from various professional sports which satisfy the notions of distributive
+justice and procedural justice, the no-envy principle of fair allocation [26], and the general
+consensus or the international norm criterion of a meaningful benchmark [27]. Note again
+that the use of fairness benchmarks assumes that the distributions of professional athletes’ salaries are stable across time. The results show that, throughout the period from 1988 to 2021, the
+Thai income earners in the bottom 20%, the second 20%, and the top 20% receive income
+shares more than the fair shares, with those in the top 20% receive income share more than the
+fair share the most, while the Thai income earners in the third 20% and the fourth 20% receive
+income shares less than the fair shares during the same period, with those in the fourth 20%
+receive income share less than the fair share the most. These results are, by and large, in line
+Table 3. Actual quintile income shares of Thailand in 2015, fair quintile income shares being consistent with the targeted income Gini index of 0.410, and optimal
+(fair) quintile income shares representing feasible income equality with the income Gini index of 0.137.
+Income share Bottom 20% Second 20% Third 20% Fourth 20% Top 20% Income Gini index
+Actual 0.049 0.094 0.139 0.210 0.507 0.445
+Fair 0.043 0.100 0.164 0.261 0.432 0.410
+Optimal 0.154 0.165 0.176 0.196 0.309 0.137
+https://doi.org/10.1371/journal.pone.0301693.t003
+PLOS ONE
+Measuring fair income inequality in Thailand
+PLOS ONE | https://doi.org/10.1371/journal.pone.0301693 April 4, 2024 16 / 20
+with those reported in Sitthiyot and Holasut [19] who use the same fairness benchmarks to
+measure fair income distributions of 75 countries. They are also well supported by the empirical findings around the world in that the income growths of income earners in the third 20%
+and the fourth 20% are lower than those of income earners in the bottom 20%, the second
+20%, and the top 20% [29–31]. According to the Organization for Economic Co-operation
+and Development [31], this has fueled perceptions that the current economic system is unfair
+[emphasis in original] and that the middle class has not benefited from economic growth in
+proportion to its contribution.
+In addition to SH method, this study conducts a comparative analysis of fair income distribution in Thailand by using PK method in order to estimate optimal (fair) income distributions
+representing feasible income equality. The results indicate that the Thai income earners in the
+bottom 20%, the second 20%, and the third 20% receive income shares less than the optimal
+(fair) shares, with those in the bottom 20% receive income share less than the optimal (fair)
+share the most, whereas the Thai income earners in the fourth 20% and the top 20% receive
+income shares more than the optimal (fair) shares, with those in the top 20% receive income
+share more than the optimal (fair) share the most. These results are generally similar to those of
+four countries, namely, U.S.A, China, Finland, and South Africa reported in Park and Kim [18].
+This study would like to note that the reason that the results on fair income shares based on
+SH method are different from the results on optimal (fair) income shares based on PK method
+is mainly because Sitthiyot and Holasut [19] and Park and Kim [18] use different concepts of
+fairness in income distribution as a basis for deriving their methods. According to Park and
+Kim [18], income distribution is regarded as fair if income shares that individuals receive are
+equal. However, recognizing that perfect equality in income distribution is idealistic and infeasible in the real world, Park and Kim [18] estimate optimal (fair) income distributions that represent feasible income equality. Park and Kim [18] view that, in a feasible income equality
+society, income should be fairly distributed among individuals.
+For Sitthiyot and Holasut [19], income distribution is viewed as fair if it satisfies the notions
+of distributive justice and procedural justice. Based on these two notions, Sitthiyot and Holasut
+[19] derive the fairness benchmarks for measuring whether income distribution is fair for a
+particular value of the income Gini index. Given that the value of income Gini index is between
+0 and 1, where 0 means perfect income equality and 1 means perfect income inequality, a fair
+income distribution society, according to Sitthiyot and Holasut [19], does not necessarily have
+to be a society whose population have more or less equal income with the income Gini index
+being close to 0 as viewed by Park and Kim [18]. Rather, a society can choose any value of
+income Gini index that it would like to achieve, provided that the chosen value of income Gini
+index is more than 0 but less than 1, and SH method would provide the information on what
+fair income distribution, being consistent with the chosen income Gini index, should be.
+Furthermore, this study demonstrates the use of SH method and PK method as a practical
+guideline for designing income redistributive policies by using actual income distribution of
+Thailand in 2015 as a case study where the income shares of the bottom 20%, the second 20%,
+the third 20%, the fourth 20%, and the top 20% are equal to 4.9%, 9.4%, 13.9%, 21.0%, and
+50.7%, respectively, and the income Gini index is equal to 0.445 [10]. Given that SH method
+and PK method use different concepts of fair income distribution as discussed above, the use
+of SH method and PK method as a practical guideline for designing income redistributive policies would depend upon the aim that policymakers would like to achieve.
+If the aim is to achieve the income Gini index of 0.410 as stated in Thailand Twelfth
+National Economic and Social Development Plan [10], policymakers could employ SH
+method which indicates that the fair quintile income shares for the bottom 20%, the second
+20%, the third 20%, the fourth 20%, and the top 20% should be 4.3%, 10.0%, 16.4%, 26.1%, and
+PLOS ONE
+Measuring fair income inequality in Thailand
+PLOS ONE | https://doi.org/10.1371/journal.pone.0301693 April 4, 2024 17 / 20
+43.2%, respectively. Policymakers could use this information for designing policies in order to
+not only reduce income inequality but also achieve fair income distribution at the same time
+by redistributing income from the top 20% to the third 20% and the fourth 20% while the
+income shares of the bottom 20% and the second 20% remain mostly unaffected.
+However, if the aim is to achieve feasible income equality, policymakers could use PK
+method which suggests that the optimal (fair) income shares of the bottom 20%, the second
+20%, the third 20%, the fourth 20%, and the top 20% should equal 15.4%, 16.5%, 17.6%, 19.6%,
+and 30.9%, respectively, resulting in the value of the income Gini index to be 0.137. The results
+based on PK method indicate that, in order to achieve feasible income equality, policymakers
+should design policies in order to redistribute income from the top 20% to the bottom 80%.
+Fig 6 shows the Lorenz plot of actual income distribution by quintile of Thailand in 2015 corresponding to the income Gini index of 0.445, the Lorenz plot of fair income distribution by
+quintile based on SH method that is consistent with the targeted income Gini index of 0.410,
+and the Lorenz plot of optimal (fair) income distribution representing feasible income equality
+based on PK method with the income Gini index of 0.137.
+While the main concern about income inequality in Thailand, besides high income inequality, is the income earners who are in the bottom 40% [10], the overall results from this study

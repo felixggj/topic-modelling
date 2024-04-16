@@ -1,0 +1,242 @@
+This paper analyzes the impact of the National Minimum Wage from 2001 to 2021. The MNW increased from
+€505.7/month (2001) to €1,108.3/month (2021). Using the data provided by the Spanish Tax Administration
+Agency, databases that represent the entire population studied can be analyzed. More accurate results and more
+efficient predictive models are provided by these counts. This work is characterized by the database used, which
+is a national census and not a sample or projection. Therefore, the study reflects results and analyses based on
+historical data from the Spanish Salary Census 2001-2021. Various machine-learning models show that income
+inequality has been reduced by raising the minimum wage. Raising the minimum wage has not led to inflation or
+increased unemployment. On the contrary, it has been consistent with increased net employment, contained prices,
+and increased corporate profit margins.
+The most important conclusion is that an increase in the minimum wage in the period analyzed has led to an
+increase in the wealth of the country, increasing employment and company profits, and is postulated, under the
+conditions analyzed, as an effective method for the redistribution of wealth.
+1 Introduction
+The economic literature has analyzed the impact of the minimum wage on employment, prices and growth. The idea
+of the neo-liberal trend is that higher wages mean higher costs for the producers. If this is associated with increased
+productivity, it should not be associated with increased prices. To do otherwise would lead to an inflationary spiral.
+The first studies in the United States concluded that workers affected by an increase in the National Minimum Wage
+(NMW) are those who earn a wage below the NMW Lopresti and Mumford [2016]. For this group of workers, the
+increase in the NMW increases wages but reduces hours worked Neumark et al. [2004]. In contrast, similar analyses in
+other countries, such as Germany, come to different conclusions Dustmann et al. [2021] and an increase in the NMW
+does not alter the demand for employment and causes a shift in the demand for jobs that is perceived as better by
+workers with wages similar to the NMW. It is not easy to affirm any of these positions, and cautious postulates must
+be considered Clemens [2021]. Previous studies have linked increases in the NMW to inflation Sellekaerts [1982]. In a
+historical series in Turkey, the increase in the NMW has been associated with an increase in prices and unemployment
+Kemal and Kocaman [2019].
+The data used in the works analyzed are based on samples, surveys or statistical projections based on economic
+models. It is considered important to comment on a report by the Spanish Central Bank which analyzes the consequences of an increase in the NMW from €858/month in 2018 to €1050/month in 2019 Lacuesta Gabarain et al.
+[2019]. This paper has considered for its analysis the data of the Employment History Report Sample between 2013-
+2017 (MCVL - Portal Estadisticas - Seguridad Social, n.d.). Based on the projected data, young people (under 25) and
+people over 45 have more than a 20% risk of losing their jobs as a result of the minimum wage increase. These findings
+are in contrast to publications that conclude that there is insufficient evidence of a relationship between minimum
+wage increases and unemployment Neumark and Shirley [2022].
+There are significant differences between the minimum wages of the EU member states
+(source: Eurostat; EARN Dist MW Dist CUR). The first group would be formed by Germany, the Netherlands,
+Belgium, Ireland and France and the range would be €1750-€2000/month. Spain and Slovenia would form a second
+group with a similar minimum wage of around €1250/month and the third group would be formed by the rest of the
+EU member states with a MNW up to €1000/month.
+
+MNW definition in Spain is a political decision. Particularly in recent years, the most progressive governments
+have led to significant increases. This paper analyzes the impact of the MNW from 2001 to 2021. The MNW increased
+from €505.7/month (2001) to €1,108.3/month (2021). This work is characterized by the database used, which is a
+national census and not a sample or projection. Therefore, the study reflects results and analyses based on historical
+data from the Spanish Salary Census 2001-2021.
+
+2 Methods
+2.1 The database
+The Spanish Tax Administration Agency (Spanish: Agencia Estatal de Administraci´on Tributaria, AEAT) is a public
+institution. It is attached to the Ministry of Economy and Finance through the former State Secretariat for Finance and
+Budget. It handles the application of the tax system under the constitutional principle that everyone must contribute
+to supporting public expenditure according to their economic capacity. It prepares the annual tax collection reports,
+which provide information on the amount and annual evolution of the tax revenues managed by the AEAT. It offers
+a database in Excel format called ”Distribucion salarios” in the supplementary material. This database collects
+information on employees in Spain who receive income from a company or entity required to provide a list of those
+receiving such income. This database does not include information on households that pay wages to employees in the
+household, nor does it reflect the reported wages of the self-employed.
+Payments are defined as income, in cash or kind, paid by the reporting unit (company or institution) in the form
+of annual income. Employees are included in the database even if they worked for only one day. If an employee has
+worked for more than one company or entity, the amount shown is the sum of all payments made to that employee
+by the different companies from which he/she received his/her salary. The information is completely anonymous and
+is presented in intervals of $200, from $0 to $80,000. The last interval is open, with no maximum value specified. A
+total of 400 annual salary levels are presented. Each cell represents the value corresponding to each bracket by year
+(2001-2021). Three variables are analyzed: number of employees, salary, and withholding tax.
+2.2 Additional Macroeconomic Data
+This paper analyzes other macroeconomic data regularly published by the National Statistics Institute (INE), such
+as; MNW, Consumer Price Index, Unemployment Index, Gross Domestic Product, and Public Debt. In no case are
+the data deflated, as they are all nominal.
+
+2.3 Calculation of the Gini Index
+The formula used to calculate the Gini index is:
+G =
+x
+n2x¯
+Xn
+i=1
+i(xi − x¯)
+To calculate the Gini index for a year, the number of registered employees in that year is needed. The database
+provides this information in brackets. The number of employees with a gross annual income equal to the interval,
+the total gross income, and the total income tax withheld are provided for each interval (range of $200). The mean
+is considered to be the distribution value that makes the variance zero since the probability distribution of each ith
+interval is considered to be identically distributed. This results in a vector for each interval composed of j values that
+are identical and equal to the mean of that interval.
+V ector ith : n
+o
+employees(j) ¯xi
+Each year vector is a union of all intervals vectors of this year.
+2.4 Graph analysis
+To analyze the relationships between macroeconomic variables, graph theory was used. A graph is a collection of nodes
+(also called vertices) connected by edges (undirected)Newman [2018]. The pattern of interactions between the nodes
+(individuals or entities) can be captured through the graph structure. The purpose of graph (or network) analysis is
+the study of relationships between individuals to discover knowledge about global and local structures.
+2
+In this paper, the nodes of the graph are defined as all macroeconomic variables, and the edges are defined as
+moderate or strong correlations between them. The linear correlation between two nodes is represented by corr(i, j),
+and the Spearman correlation is defined as moderate or strong if corr(i, j) ≥ 0.5 Suchowski [2001] in case of direct
+correlation. An edge(i, j) is defined if abs(corr(i, j) ≥ 0.5.
+Detecting communities in networks is one of the most popular topics in modern network science. Communities, or
+clusters, are typically groups of nodes that are more likely to be connected than to members of other groups, although
+other patterns are possible. There are no universal protocols, neither for defining a community itself nor for other
+crucial issues such as validating algorithms and comparing their performance.
+The Louvain method hierarchically performs a greedy optimization Blondel et al. [2008], assigning each vertex to
+the community of its neighbors that yields the highest number, and creating a smaller weighted network whose vertices
+are the clusters found previously Fortunato and Hric [2016]. Partitions found on this super-network hence consist of
+clusters including the ones found earlier, and represent a higher hierarchical level of clustering. Software used: Gephi
+v 0.10 Jacomy et al. [2014].
+2.5 Multivariate Linear Regression
+The statistical model is assumed to be
+Y = Xβ + µ
+where µ N(0, Σ). The ordinary least squares for independent identically distributed errors (MSE). R- square formula
+is,
+R
+2 = 1 −
+sum squared regression (SSR)
+total sum of squares (SST) = 1 −
+P(yi − yˆ )
+2
+P(yi − y¯)
+2
+The Durbin-Watson (DW) statistic is a test for autocorrelation in the residuals from a statistical model or regression
+analysis. Values from 0 to less than 2 indicate positive autocorrelation and values from 2 to 4 indicate negative
+autocorrelation.
+Durbin-Watson test statistics d is given as,
+d =
+PN
+i = 2 (ei − ei−1)
+2
+PN
+i = 1 ei
+2
+where N is the number of observations and ei
+is the residual for each observation (i). The software used is
+statsmodels packages for PythonSeabold and Perktold [2010].
+2.6 Random Forest Regressor
+The Random Forest Regressor (RFR) is an ensemble learning model. It combines the predictions of multiple models
+to produce more accurate results than a single model Breiman [2001]. A decision tree (DT) is a simple model that
+predicts the outcome by performing a partition based on the predictor (input variable) that provides the greatest
+reduction in mean squared error (MSE).
+MSE =
+1
+n
+Xn
+i
+= (yi − yˆ)
+2
+Where y and ˆy are the measured and predicted values of the samples in a node, respectively, and n is the number
+of samples in a node. A node that cannot branch further due to a non-decreasing MSE is called a leaf node, and
+the average of the samples in that node becomes a candidate for prediction. When unseen data is entered into the
+final DT model, the data moves according to predetermined branching criteria. The value of the leaf node where the
+data finally arrives is used as the predicted value of the DT. Scitik-Learn is de machine learning software used in
+PythonPedregosa et al. [2012].
+3 Results
+3.1 Calculation of the Gini Index
+The Gini index of the gross wages received by all workers in the years under study is analyzed and called Gross-Gini.
+A similar analysis called the net Gini, is carried out on net income (gross salary minus withholding tax). It shows
+3
+the effect of income tax progressivity as measured by the difference between the two indexes.Table 1 shows the
+annual results of the database “Distribucion salarios” provided by AEAT. The nominal increase in average annual
+gross earnings was like the annual increase in minimum wage. Over the twenty years of the study, they increased by
+€7,500 and €7,300, respectively. The annual minimum wage percentile is calculated concerning annual gross income.
+In most years, more than 30% of workers did not earn the equivalent of the annual minimum wage. This is due to
+a significant level of underemployment. Tourism in Spain is seasonal and accounts for more than 13% of the total
+employed Cabrer-Borras and Rico [2021]. Seasonality in the agricultural sector in Spain accounts for 5% of employment
+Molinero-Gerbeau et al. [2021]. Over the period under review, the progressivity of income tax has remained stable.
+Income inequality is favored by this progressivity. The difference between the calculated Gini indices indicates the
+reduction in income inequality brought about by the progressivity of the tax.
+3.3 Unemployment analysis
+Figure 3 provides a visual analysis of the intuitive relationship between continuous increases in the minimum wage,
+especially in recent years, and unemployment. It is observed that youth unemployment has the highest elasticity
+for periods of economic crisis. No increase in unemployment among workers over 55 years of age is observed to be
+associated with an increase in the minimum wage. The National Statistics Institute (INE) periodically publishes
+unemployment figures. Quarterly figures are used in this case.
+Figure 3: Unemployment trends by age and minimum wage 2002-2023
+
+3.6 Mean Salary Difference explained
+The Mean Salary was calculated considering all employees in all bands of the analyzed database. The bands below
+€10,000 and above €80,000 have been excluded from the calculation of the Mean Salary Range. The first band
+corresponds to employees who did not work the calendar year and distorts the average. Similarly, the band above
+€80,000 is open and includes remarkably high salaries, which also distorts the average. For this reason, the variable
+’average salary range’ corresponds to the average of employees whose gross annual salary is between [10K-80K]. There
+9
+has been a shift in the proportions of employees by rank, particularly since 2016, coinciding with more substantial
+increases in the minimum wage. Over the years, the [20K-40K] range has increased from 5.85% (12.51% of gross
+income) of the population in 2001 to 15.61% (20.96% of gross income) in 2021. This is because underemployment
+(workers who want to work more hours and whose contracts do not cover 40 hours a week or all months of the year)
+exceeds 15% of total emp
+The share of employees per band for the three years analyzed [2001-2016-2022] is shown in the upper part of the graph. The
+share of the sum of their gross annual income per income group is shown in the lower part of the graph.
+Spearman’s linear correlation value between the DIFF variable and GINI was ρ = 0.75 shown in Fig 4. DIFF has
+been found to be the most influential in predicting the Gini Index score.
+The evolution of the percentile of the minimum wage over the period under study is analyzed and presented in
+Figure 7, together with other macroeconomic variables. A percentile above 40 is noticeable. This means that 40% of
+the wages recorded in the database are paid below the Minimum Wage. The evolution of the percentile is related to
+an increasing minimum wage and to the evolution of the average gross wage.
+
+For each year, the difference between the average gross salary of all employees and the gross salary range [10, 000−80,000] is
+evaluated and represented by he brown line. The National Minimum Wage is represented by bars in the figure. The cream
+line represents the Gini index corresponding to the net income values of the employees each year. The blue line represents the
+evolution of the NMW percentile versus the annual gross salary vector.
+4 Discussion
+This paper is based on the statistical analysis of macroeconomic time series published by government agencies of
+the Spanish government. The Bank of Spain, among others, predicted in 2017 that increasing the minimum wage
+would cause unemployment to rise Lacuesta Gabarain et al. [2019]. Experience has shown that none of these forecasts
+have been accurate. Fig 3 shows that an increase in the minimum wage is compatible with the creation of new jobs.
+The average wage increases, and income inequality becomes fairer. These results are consistent with some studies
+mentioned in the paper. In the United Kingdom (1999-2010), the development of wage inequality was examined. The
+impact on inequality of the introduction of the minimum wage in 1999 was moderate. This can be explained by the
+fact that the minimum wage was introduced at a level that was below the 10th percentile of the earnings distribution
+Stewart [2002]. However, the specific features of the structure of the Spanish economy must be considered. One reason
+for its impact on reducing income inequality may be that the most recent minimum wage is at the 30-40th percentile.
+Extrapolating these results to other economies, or even to Spain in the near future, may be unwise. An increase
+in economic inequality can lead to a lack of trust in governing politicians Andersen [2012]. In 2022, Piketty et al.
+suggest that policy discussions on inequality should focus on policies that affect pre-tax inequality, rather than focusing
+exclusively on tax redistribution (Predistribution vs. Redistribution: Evidence from France and the US, n.d.). This
+paper shows that redistribution does not change the dynamics of economic inequality. As the minimum wage increases,
+there is an increase in the number of workers in the $20,000-$40,000 range. This tends to reduce income inequality and
+raise the average salary. And this is true for the Spanish economy since the minimum wage is far from the level of the
+main European economies, such as France or Germany. There is a question as to the extent to which an increase in the
+minimum wage will have a negative impact on the economy. It could be argued that as it approaches that of Germany,
+either productivity increases or economic imbalances could arise, which have been widely analyzed. Inequality tends
+to be pro-cyclical. Low-income households and young people tend to be hit harder by recessions. The distribution
+of labor and capital income differs across countries. Therefore, the cyclicality of income inequality may also differ
+Clemens et al. [2020].
+11
+Three different regression models were used. All of them confirm that the DIFF variable is the best predictor
+of income inequality. It is particularly noticeable when there is a movement towards annual salaries above €20,000,
+which is largely due to the increase in the minimum wage. There is reason to believe that the wage structure will tend
+to follow the same trend as the minimum wage increases, catching up with major economies, if the minimum wage
+percentile is above 20. In addition, income inequality will improve. This is measured by a decline in the Gini index.
+The collection of corporate income tax has risen to a record figure of more than 200 billion euros for the first time in
+2019 (Recaudaci´on y Estad´ısticas del Sistema Tributario Espa˜nol: Ministerio de Hacienda y Funci´on P´ublica, n.d.).
+Therefore, there is no evidence of a reduction in corporate profits because of a minimum wage increase.
+5 Conclusion
+The most important conclusion is that an increase in the minimum wage in the period analyzed has led to an increase
+in the wealth of the country, increasing employment and company profits, and is postulated, under the conditions
+analyzed, as an effective method for the redistribution of wealth.
+Using the data provided by the AEAT, it could be analyzed databases that represent the entire population studied.
+More accurate results and more efficient predictive models are provided by these counts. The results offered in this
+paper should be analyzed in the context of the particularity of the Spanish economy.
+Various machine-learning models show that income inequality has been reduced by raising the minimum wage.
+Raising the minimum wage has not led to inflation or increased unemployment. On the contrary, it has been consistent
+with increased net employment, contained prices, and increased corporate profit margins.
+Other aspects, such as the profitability of movable and immovable assets and the income of the self-employed,
+should be included in a subsequent analysis.

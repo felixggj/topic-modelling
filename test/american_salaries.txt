@@ -1,0 +1,188 @@
+AMERICAN POSTDOCTORAL SALARIES DO NOT ACCOUNT FOR
+GROWING DISPARITIES IN COST OF LIVING
+Tim Sainburg
+Harvard Medical School
+UC San Diego
+tim_sainburg@hms.harvard.edu
+May 26, 2022
+ABSTRACT
+The National Institute of Health (NIH) sets postdoctoral (postdoc) trainee stipend levels that many
+American institutions and investigators use as a basis for postdoc salaries. Although salary standards
+are held constant across universities, the cost of living in those universities’ cities and towns vary
+widely. Across non-postdoc jobs, more expensive cities pay workers higher wages that scale with
+an increased cost of living. This work investigates the extent to which postdoc wages account for
+cost-of-living differences. More than 27,000 postdoc salaries across all US universities are analyzed
+alongside measures of regional differences in cost of living. We find that postdoc salaries do not
+account for cost-of-living differences, in contrast with the broader labor market in the same cities and
+towns. Despite a modest increase in income in high cost of living areas, real (cost of living adjusted)
+postdoc salaries differ by 29% ($15k 2021 USD) between the least and most expensive areas. Cities
+that produce greater numbers of tenure-track faculty relative to students such as Boston, New York,
+and San Francisco are among the most impacted by this pay disparity. The postdoc pay gap is growing
+and is well-positioned to incur a greater financial burden on economically disadvantaged groups and
+contribute to faculty hiring disparities in women and racial minorities.
+Keywords postdoctoral · cost of living
+1 Introduction
+American funding agencies typically do not account for geographic differences in cost of living when setting salary
+standards. For example, the National Institute of Health (NIH), the largest biomedical research funding agency in
+the US, sets a constant rate of pay for all postdocs awarded NRSA fellowships and restricts on how income can be
+supplemented for fellows [1]. Although the NIH payscale does not restrict non-fellowship salaries, many US institutions
+use NIH NRSA standards as a basis for their own postdoctoral salary levels.
+The same salary can vary greatly in America across economic regions in terms of the goods and services (e.g. rent, food,
+transportation) that it can be used to purchase. The US Bureau of Economic Activity (BEA) estimates this difference
+across geographic regions as the Regional Price Parity (RPP) which is used as the basis of determining an individual’s
+"real" income. Real income estimates the value of an individual’s income, adjusted by setting the value of dollars
+constant across geographic regions using the RPP [2]. For example, the 2021 first-year postdoc NRSA stipend, set by
+the NIH at $53,760, provides a real salary of $56,709 in Durham, North Carolina (RPP=94.8), and only $39,970 in San
+Francisco (RPP=134.5).
+Although larger cities are typically more expensive places to live, wages typically scale with the cost of living [3, 4].
+This phenomenon is explained by the economic notion of spatial equilibrium, which predicts compensatory equality
+between income, prices, and amenities [4, 5]. Because funding agencies set uniform postdoctoral salary standards
+across institutions without respect to the cost of living, we hypothesize that spatial equilibrium will not hold for postdoc
+salaries in the US, resulting in a salary disparity across American cities.
+arXiv:2205.12892v1 [econ.GN] 25 May 2022
+American postdoctoral salaries do not account for growing disparities in cost of living
+Postdoc positions are generally considered to be a transitory period between training and finding a permanent academic
+position [6]. The treatment of the postdoctoral career stage as a training period rather than long-term employment can
+lead to a disregard for postdoctoral salary as an important factor in choosing a position [7, 8], despite the long-lasting
+financial impacts of postdoctoral training [9]. The majority of tenure-track faculty at universities are trained by a small
+minority of universities that are often located in America’s most expensive cities [10]. If higher-prestige universities
+pay lower real salaries, a short-term loss in income could still be a valuable investment into future career outcomes.
+However, a lower salary has the potential to disproportionately impact researchers who cannot absorb the short-term
+impacts of a lower postdoc income, such as parents and individuals from disadvantaged socioeconomic roots.
+This work explores how income differs between postdocs when factoring in the cost of living across geographical
+regions. First, we find that, despite a modest increase in postdoc salaries in high cost of living areas, the value of a
+postdoc’s income in the highest cost of living areas is 29% (15k 2021 dollars) lower than for postdocs living in the
+lowest cost of living areas. This effect is not observed in the general job market, where income scales with the cost of
+living. Second we find that the postdoc salary gap is particularly prominent in the cities and universities that produce
+the most tenure-track faculty. Finally, we find that these pay disparities have likely increased with changes in the cost
+of living across cities since the 1980s. Taken in context, these data provide indications for a source of inequity in the
+academic pipeline.
+2 Results
+To compare salaries across institutions we use a dataset of 27,572 postdoctoral salaries acquired from H1B postdoctoral
+hires between 2015 and 2020 reported by the US Department of Labor. We adjust salaries to their 2021 equivalent
+for inflation across years to 2021 dollars using the Consumer Price Index (CPI), a measure of inflation. Although
+departmental information was not available for every salary datapoint, the most commonly observed positions were in
+biomedical disciplines.
+2.1 Postdoc salaries do not fully account for cost of living
+Figure 1: Regional Price Parity across CBSAs. Salaries listed refer to the median salaries and real salaries for postdocs
+in those regions.
+We adjust postdoc salaries to their "real salary" based upon the Core-Based Statistical Area (CBSA; socioeconomically
+tied geographic regions) that the university resides within. Each year, the United States Bureau of Economic Analysis
+2
+American postdoctoral salaries do not account for growing disparities in cost of living
+(BEA) releases the Region Price Parity (RPP) across US geographical regions, which measures the difference in price
+levels weighting rents, food, transportation, housing, recreation, education, medical, apparel, and other expenditures
+(Fig 1). Using the RPP, the BEA estimates the Real Personal Income across the different geographical regions, which is
+a price-adjusted regional income. We apply the same transformation to postdoc salaries for each university and salary
+to estimate its real postdoc salary. Figure 1 shows the median postdoc salaries and median real postdoc salaries across
+several statistical areas with large postdoc populations.
+As a comparison to postdoc salaries and real salaries we look at the median salaries across all jobs in the same CBSA
+reported by the US Bureau of Labor Statistics (BLS). Consistent with prior observations [3], we find that salary across
+the job market scales with the cost of living, making real salary nearly constant (r(124)=0.04, p=0.63) across different
+RPPs ((2A,B gray line). In contrast, postdoc salaries do not scale with the cost of living. While we see a modest
+increase in postdoc salaries in the most expensive cities (Fig 2A blue line; e.g. 11% or $6,010 in San Francisco), real
+postdoc salaries are negatively correlated with RPP (Fig 2B blue line; r(124)=-0.85, p=5.17e-35).
+Figure 2: Salary adjustments for postdocs do not account for the cost of living. (A) The median postdoc salary for each
+university. Each blue point corresponds to the median salary for a single university. Each grey point corresponds to the
+median salary for the same CBSA that the university resides within. (C) The same salary data as in (A) scaled with RPP
+to the real salary.
+2.2 Top tenure-track faculty producing universities pay lower real salaries
+Despite lower pay, there is a benefit to be gained by doing a postdoc in America’s most expensive cities. Where you
+train has an outsized impact on your ability to find a tenure-track (TT) faculty position [10]. The prestige of PhD and
+postdoc training institutions are among the strongest indicators of future positions [11, 10]. Faculty placements are also
+increasingly dependent on fellowships and career development awards which are unevenly distributed across institutions
+[12]. Clauset et al. [10], created a dataset of TT faculty in Business, Computer Science, and History, documenting the
+universities where they received their PhD and found that just 25% of universities produce 71-86% of all tenure-track
+(TT) faculty hires. Here, we use Clauset et al.’s dataset (faculty at US universities n=13,866) to observe the relationship
+between postdoc wages, cost of living, and academic career prospects. Although this dataset reports data on PhD
+training institutions, postdoc training institutions play a similar or greater role in TT career prospects in biological
+sciences [11].
+As can be seen in Fig 3A-D, we find that the American cities that produce the greatest number of TT faculty produce
+a greater share of TT faculty than trainees, are generally more expensive places to live, and pay postdocs lower real
+salaries. For example, the Boston metropolitan area produces the greatest share of TT faculty at 12% and only 6% of
+PhD trainees. Boston has an RPP that is 115.5% of the American average and the real salary of the median postdoc in
+the Boston area is only 93% of the American median.
+The same trend holds true at the level of the University. Of the universities that produce the greatest ratio of TT faculty
+to trainees (Fig 3E), those in higher cost of living cities pay a lower real salary than average (Fig 3F).
+There are universities and cities that stand out. Chicago, for example, has an RPP only slightly above average (Fig
+3A-D), and the University of Chicago, which produces the greatest ratio of faculty to PhDs, pays a greater real salary
+than the median (Fig 3E-F). The same is true of schools like Carnegie Mellon in Pittsburgh, and Duke in Durham.
+Figure 3: Postdoc salaries in the cities and universities producing the most postdocs. (A) Cities sorted by number of
+TT faculty with a PhD from that city from [10] (B) Overrepresentation ratio of TT faculty produced to PhD students
+produced from (A). (C) RPP for each city. (D) Difference of median real postdoc salary for city relative to the national
+median ($51,849) with 95% CI. (E) Universities sorted by the ratio of TT Faculty to PhD students produced, as in (B).
+(F) Difference of median real postdoc salaries for the universities in (E) relative to the national median ($51,849).
+2.3 Cost of living disparity is increasing across universities
+Cost-of-living disparities between cities are not new. However, the-cost-of living gaps between many cities with
+large academic populations are increasing. In major university cities like Boston, San Francisco, and San Diego, the
+emergence of tech and biotech industries have gentrified and increased housing prices throughout the 1990s, 2000s, and
+2010s [13]. To measure changes in disparities in the cost of living across cities in comparison to postdoc salaries we
+look at the Consumer Price Index and Fair Market Rents.
+NIH salaries since the 1980s have fluctuated year-by-year but remain in a similar range to what they are today (Fig 4A).
+Postdoc salaries bottomed out in the mid-1990s and then peaked in 2003, where a postdoc with 7+ years of experience
+made a salary of $73,145 (2021 USD), in comparison with the salary of $65,282 in 2021. Over the past decade, postdoc
+wages have been steadily rising, with the greatest salary gains for early trainees.
+The Consumer Price Index (CPI) is a weighted average of the prices of consumer goods like food, medical care, housing,
+and transportation and is used as a measure of inflation. CPI measures changes in prices, but not absolute differences in
+prices. The BLS has released CPI values relative to the prices of goods in 1982-1984 since 1984 across US economic
+regions (Figure 4B). The cost of goods in regions like Boston, San Diego, San Francisco, and New York City have
+raised relative to the national average over the past 40 years while cities like Houston and Chicago have seen decreases
+in prices relative to the national average (Fig 4B).
+The Fair Market Rents is a statistic published by the U.S. Department of Housing and Urban Development, measured as
+the 40th percentile rents in metropolitan areas. Where CPI provides information about changes in prices, Fair Market
+Rents provide information about differences in housing prices across economic regions, a major factor in the cost of
+living and spatial equilibrium [4]. Differences in rent prices in these major metropolitan areas have increased since the
+early 1980s (Fig 4C). For example, the monthly fair market rent of a 2-bedroom apartment in San Francisco was $1,430
+2021 dollars in 1984 compared to $3,553 in 2021.
+Taken together, postdoc salaries, as indicated by NIH standards, have fluctuated in the same range over the past four
+decades. Meanwhile, cost-of-living disparities across many academic cities have grown.
+Figure 4: Changes in NIH postdoc salary standards relative to CPI across cities and Fair Market Rents between 1984
+and 2021. NIH salaries and Fair Market rents are inflated to 2021 and show the price of a 2-bedroom apartment.
+3 Discussion
+American postdoc salaries are held relatively stable across the United States despite differences in cost of living across
+cities. These differences result in a lower real income for postdocs living in more expensive areas. In part this is by
+design: the NIH sets standards on postdoc stipends that are held constant across the US. This pay disparity is increasing.
+These differences in pay are reflected most strongly in the cities that produce the most TT faculty like Boston, San
+Francisco, and New York. These same cities are becoming increasingly expensive relative to the rest of the United
+States, resulting in a decrease in the real value of a postdoc’s income.
+How do these pay differences impact the scientific landscape? Although substantial efforts have recently been put
+into place to reduce inequalities in the opportunities available to American scientists [14], parity has not been reached,
+particularly across race, gender, and socioeconomic background [15, 16]. For example, women account for over half
+of US doctoral recipients in biology but comprise a much smaller proportion of the distribution of TT professors
+[17, 18, 19, 20]. One factor impacting this disparity is an imbalance in the family-related responsibilities between
+women and men [21] which can be exacerbated by financial hardship such as an inability to pay for increasingly costly
+childcare [22]. The disparity between males and females in postdoc positions is greatest in laboratories that produce
+the largest number of tenure track professors [23], which are largely located in cities like Boston, New York, and San
+Francisco. It is unlikely that a reduction in income is the sole cause of the "leaky pipeline". However, decreased pay
+during postdoctoral training and the downstream effects on parenthood and work-life balance may unequally influence
+individuals who choose to pursue academic careers. Similar issues arise for those who enter the academic path with
+college debt or without an available safety net allowing them to absorb short-term financial losses in order to pursue
+long-term career benefits. For example, student loan debt is greater in black students than white students in America
+[24]. These disparities do not fall in line with the NIH mission [14].
+5
+American postdoctoral salaries do not account for growing disparities in cost of living
+Would anything be gained by the scientific community by paying commensurate salaries to postdocs in more expensive
+cities? This question parallels one that pervades urban economics: why do businesses choose to locate in dense cities,
+where they have to pay higher wages? It is believed that businesses choose to pay more for workers in dense areas
+because proximity adds some degree of value through productivity [3]. It remains an open question whether or to what
+extent proximity between universities in areas like Boston, New York, or San Francisco aid in research productivity.
+Here, we do observe that many high cost of living cities produce larger numbers of TT faculty relative to trainees.
+Spatial equilibrium predicts a compensatory balance between wages, prices, and amenities. The analyses here compared
+wages and prices (e.g. rent, cost of living) but not amenities. Regions such as New England, the Pacific coast, and
+the Mid Atlantic have more highly valued amenities than the rest of the US, meaning workers are willing to accept a
+lower real wage to work there [4]. Still, our comparisons with non-postdoc salaries in the same cities show that postdoc
+salaries do not scale to the same extent. For example, in 2021 the salary of the median elementary school teacher in San
+Francisco was 70% greater than Durham/Chapel Hill, NC ($82,870 vs $48,620), while the median salary of a postdoc
+in San Francisco was only 12% greater than in in Durham/Chapel Hill ($59,110 vs. $52,761).
+Post-graduation, PhD students are faced with the decision to continue in the traditional academic trajectory or search
+for employment in other sectors like industry or government. The pay disparity for postdocs driven by the cost of
+living described in this work pales in comparison to pay disparities between postdocs and PhDs working in industry.
+The yearly NSF Survey of Earned Doctorates reported in 2020 that the median life sciences PhD in their first year of
+industry careers expects to make just over $100k USD, while the median postdoc expects to make half of that, only
+$50k [17]. Within postdoc salaries, cost-of-living differences account for real salaries up to $10k USD greater or less
+than the median real salary ($51,849), a difference of close to 20%.
+Taken together, the data presented here provide new insights on the pay disparities between postdocs in different regions
+of America and the direction those pay disparities have been moving over the past four decades. Salary differences
+may also be present in income at other stages in the academic career such as graduate student stipends and early career
+tenure-track researchers, where funding agencies also place caps on salaries. The consequences of these disparities are
+unknown and warrant further exploration.
