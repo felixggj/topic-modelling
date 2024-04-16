@@ -8,9 +8,6 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 from gensim.models.coherencemodel import CoherenceModel
 import pyLDAvis.gensim_models
-import warnings
-
-warnings.filterwarnings("ignore", category=RuntimeWarning) 
 
 
 class TopicModel:
@@ -33,7 +30,7 @@ class TopicModel:
         doc_term_matrix = [self.dictionary.doc2bow(doc) for doc in doc_clean]
         return doc_term_matrix
 
-    def train_lda_model(self, doc_term_matrix, num_topics=3, passes=10000):
+    def train_lda_model(self, doc_term_matrix, num_topics=5, passes=10000):
         self.ldamodel = gensim.models.ldamodel.LdaModel(doc_term_matrix, num_topics=num_topics, id2word=self.dictionary, passes=passes)
 
     def predict_topic(self, text):
