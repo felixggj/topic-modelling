@@ -39,10 +39,10 @@ class TopicModel:
 
 if __name__ == '__main__':
     nltk.download('stopwords')
-    nltk.download('wordnet')
+    nltk.download('wordnet') 
     nltk.download('punkt')
 
-    # Sample documents
+    # Documents
     documents = [
         "There is general agreement that some form of regulation is necessary both for AI creators to be incentivised to develop trustworthy systems, and for users to actually trust those systems. But there is much debate about what form these regulations should take and how they should be implemented. Most work in this area has been qualitative, and has not been able to make formal predictions. Here, we propose that evolutionary game theory",
         "Efficiently pricing multi-asset options poses a significant challenge in quantitative finance. The Monte Carlo (MC) method remains the prevalent choice for pricing engines; however, its slow convergence rate impedes its practical application. Fourier methods leverage the knowledge of the characteristic function to accurately and rapidly value options with up to two assets. Nevertheless, they face hurdles in the high-dimensional settings due to the tensor product (TP) structure of commonly employed quadrature techniques",
