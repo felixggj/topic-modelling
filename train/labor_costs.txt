@@ -1,0 +1,365 @@
+Unemployment Volatility:
+When Workers Pay Costs upon Accepting Jobs
+Rich Ryan¶
+January 14, 2024
+Abstract
+When a firm hires a worker, adding the new hire to payroll is costly. These costs reduce the amount of resources that can go to recruiting workers and amplify how unemployment responds to changes in productivity. Workers also incur up-front costs upon accepting
+jobs. Examples include moving expenses and regulatory fees. I establish that workers’ costs
+lessen the response of unemployment to productivity changes and do not subtract from resources available for recruitment. The influence of workers’ costs is bounded by properties of
+a matching function, which describes how job openings and unemployment produce hires.
+Using data on job finding that are adjusted for workers’ transitions between employment
+and unemployment and for how the Job Openings and Labor Turnover Survey records hires,
+I estimate a bound that ascribes limited influence to workers’ costs. The results demonstrate
+that costs paid by workers upon accepting jobs affect outcomes in the labor market (firms
+threaten workers with paying the up-front costs again if wage negotiations fail), but their
+influence on volatility is less important than firms’ costs. Salaries
+Keywords: business cycle, fundamental surplus, job creation, job finding, job search, market tightness, matching function, matching models, Nash wage equation, productivity, search
+frictions, unemployment, unemployment volatility
+1 Introduction
+Firms recruit workers by posting notices to online job boards and taping help-wanted signs to
+storefront windows. When the advertisement is answered and a firm decides to hire a worker, the
+firm must pay the cost of adding the worker to payroll. This one-off cost of creating a job reduces
+the amount of resources that can be allocated to recruitment. Recruitment determines how job
+openings and therefore unemployment respond to changes in fundamentals like productivity
+(Ljungqvist and Sargent, 2017).
+Imagine that Acme Corporation wants to hire a worker and Don wants a job. Acme posts
+their opening to an online job board, which advertises the position for a monthly fee. Acme
+expects to have trouble filling their position in periods when there are many other firms looking
+to add workers and few workers looking for jobs. Meanwhile, Don searches for work, collects
+benefits from unemployment insurance, and enjoys some leisure that in total amounts to 𝑧. While
+scouring online job boards, Don finds the Acme listing. He applies, interviews, and accepts the
+job. Don uses the technology at Acme to produce 𝑦.
+The match between Don and Acme generates the surplus 𝑦 − 𝑧. But Acme must first pay the
+fixed cost of adding Don to payroll. If this cost is properly accounted at 𝜉, then only 𝑦 −𝑧 −𝜉 can
+be allocated to vacancy creation. Viewed as a fraction of output, potential resources for vacancy
+creation are increasing in 𝑦: the derivative of (𝑦 − 𝑧 − 𝜉) /𝑦 is positive. A change in productivity
+will generate a large increase in this fraction if (𝑧 + 𝜉) /𝑦
+2
+is large, which occurs when 𝑧 + 𝜉 is
+large. The presence of costs paid by firms upon hiring workers means resources allocated to job
+creation will respond more to changes in productivity, which will generate larger unemployment
+responses. Importantly, Ljungqvist and Sargent (2017) establish that Acme’s expected cost of
+posting the vacancy to the online job board is much less important than the cost of adding Don
+to payroll.
+One-off up-front costs paid by firms offer an answer to a widely acknowledged puzzle: the
+failure of the standard search model to match the observed volatility of unemployment (see, for
+example, Hall, 2005b; Shimer, 2005; Mortensen and Nagypál, 2007; Costain and Reiter, 2008; Pissarides, 2009; Gertler and Trigari, 2009; Gomme and Lkhagvasuren, 2015; Kehoe et al., 2023).
+That costs paid by firms can explain unemployment volatility suggests these types of costs
+are worth exploring. Surprisingly, while firms’ costs have been partially explored, costs paid by
+workers upon taking a job have not, despite evidence that the prevalence of these costs has risen.
+Costs paid by workers upon accepting a job. In short, here is the main issue: Responses of
+unemployment to changes in productivity depend on resources that can be allocated to vacancy
+creation. These resources are reduced by costs paid by firms upon hiring a worker. The effect is
+larger responses of unemployment to changes in productivity. Do costs paid by workers upon
+accepting a job have a similar effect? Put another way using the example above, if Don has
+to relocate for the job at Acme, do Don’s costs subtract from resources available for vacancy
+creation?
+Examples of up-front costs paid by workers include not only any costs to relocate for work but
+also any administrative fees associated with job regulation. These costs are placed in an economy
+that features unemployment. In the standard Diamond–Mortensen–Pissarides environment this
+feature is not without precedent. Mortensen and Nagypál (2007), for example, consider turnover
+2
+costs paid by firms. Turnover costs include the costs of adding a worker to payroll and taxes
+for firing a worker. Pissarides (2009) uses the cost a firm pays to add a worker to establish that
+their incorporation into a standard DMP model implies unemployment responds realistically to
+observed changes in productivity.
+In contrast to costs paid by firms, costs paid by workers reduce the response of unemployment
+to changes in productivity and there is little scope for them to influence unemployment volatility.
+To preview results, this conclusion is based on two contributions of this paper.
+1. I generalize Ljungqvist and Sargent’s (2017) fundamental decomposition to show that fixed
+costs paid by workers are subsumed by a factor that is bounded from above by the elasticity
+of matching with respect to unemployment, severely limiting the scope for workers’ costs
+to influence volatility.
+2. This would be the end of story, except that I show this elasticity is not in fact bounded
+by “a consensus about reasonable parameter values” (Ljungqvist and Sargent, 2017, 2636).
+To reconcile the consensus, I estimate a matching function that does not exhibit constant
+elasticity of matching with respect to unemployment (like in the Cobb–Douglas case), using data on the labor force from the US Bureau of Labor Statistics and hires from the US
+Bureau of Labor Statistics’ Job Openings and Labor Turnover Survey. These data are adjusted for time aggregation—workers can continuously find and separate from a job within
+a month—and how the JOLTS program records hires—all hires within a month are reported,
+not only hires that remain employed at the end of the month. Once I adjust for these potential sources of bias, I estimate a nonlinear matching technology and re-establish the
+“consensus.”
+The result bolsters the idea that Ljungqvist and Sargent’s (2017) fundamental surplus refers
+to resources available to firms that the invisible hand can allocate to vacancy creation. Fixed costs
+of job creation paid by workers do not reduce these resources.
+Of course up-front costs paid by workers affect labor-market outcomes. According to the
+traditional account, occupational regulation boosts workers’ wages by restricting the supply of
+workers and increasing demand through higher-quality output. In the search environment, however, the firm–worker pair already enjoys a bilateral monopoly over the surplus they generate.
+The presence of fixed costs paid by workers allows a firm to threaten a worker with paying the
+fixed costs again if the wage negotiation fails. As a consequence, the negotiated wage is lower.
+This makes posting a vacancy more valuable, which lowers equilibrium unemployment. While
+wages are often observed to be higher in regulated occupations (think doctors and lawyers), there
+are few stories of certified nursing assistants getting rich. In the Occupational Outlook Handbook,
+for example, the BLS reports that “the median annual wage for nursing assistants was $35,760 in
+May 2022,” which is $17.18 per hour.1 Going beyond the scope of this paper, firms’ gains from
+workers’ costs could partly explain the increased prevalence of such costs.
+The remainder of the paper is organized as follows. Section 2 provides motivating examples of job-creation costs paid by workers. Section 3 describes the economic environment and
+section 4 presents the two-factor fundamental decomposition of the elasticity of labor-market
+1This information is available in the Occupational Outlook Handbook at https://www.bls.gov/ooh/healthcare/
+nursing-assistants.htm. Accessed January 12, 2024.
+3
+tightness with respect to productivity. Because unemployment is a fast-moving state variable,
+a good approximation of model dynamics is an analysis of steady states indexed by productivity (Hall, 2005a,b). For certain productivity levels the consensus that bounds the influence of
+job-creation costs paid by workers falls apart. Section 5 presents a calibration that restores the
+consensus. I calibrate the model to match the labor-market evidence in Pissarides (2009). I then
+estimate a matching function that does not exhibit constant elasticity of matching with respect
+to unemployment. The elasticities that vary by the state of the business cycle are close to the single number provided by the Cobb–Douglas evidence. Section 6 presents properties of the model,
+including the insight that workers’ costs can reduce wages and unemployment volatility. The
+model’s properties are discussed within the context of the literature in section 7, which includes
+a discussion of outstanding questions. Section 8 concludes.
+2 Two Examples of Job-Creation Costs Paid by Workers
+When a worker accepts a job they may be required to pay fees associated with regulation. For
+example, a worker may have to pay administrative fees to a government agency to file their name,
+address, and qualifications before starting work (Kleiner and Krueger, 2013). Administrative fees
+are often required when a government agency maintains a register. Variants of “Registered Dietitian” can be used by workers meeting certain requirements in California, for example, but anyone
+can provide nutritional advice.2 Registration may also require a worker to post a bond in order
+to practice (Kleiner, 2006). A related example is testing fees. Testing fees are sometimes required
+when the government or a nonprofit agency issues a certificate to workers who demonstrate skill
+or knowledge of some tasks. Registration and certification fall under the rubric of occupational
+regulation (Kleiner, 2000).
+In addition to these two forms of regulation, “the toughest form of regulation is licensure”
+(Kleiner and Krueger, 2013, S175). A licensing policy means a worker cannot legally work in an
+occupation unless they meet some standard. Recent data from the US Census Bureau’s Survey
+of Income and Program Participation indicate that one in four adults aged 18 through 64 had
+attained a license or certificate (Gittleman, Klee, and Kleiner, 2018). In an analysis of 102 licensed
+occupations that pay below the average income in the United States, Knepper et al. (2022) document that a worker can expect to pay $295 in licensing fees.
+A few notable facts accompany this statistic on workers’ costs. First, the amount does not
+include lost wages from time spent earning a degree or accumulating experience. Second, “licensing burdens often bear little relationship to public health or safety—the purported rationale
+for much licensing” (Kleiner and Vorotnikov, 2018, 8). For example, only 12 percent of the 102
+occupations analyzed by Knepper et al. (2022, 37) are licensed universally across states, “which
+means workers are safely practicing them in at least one state—and often many more than one—
+without a government permission slip.” Third, the prevalence of occupational licensing is on the
+2The requirements to be a Registered Dietitian in California can be found on websites maintained
+by the Department of Nutritional Sciences & Toxicology at the University of California in Berkeley and the Department of Family & Consumer Sciences at California State University, Sacramento:
+https://nst.berkeley.edu/mnsd/how-to-become-a-registered-dietitian-nutritionist and https://www.csus.edu/
+college/social-sciences-interdisciplinary-studies/family-consumer-sciences/nutrition/becoming-rdn.html. Accessed January 12, 2024.
+4
+rise (Kleiner and Krueger, 2010, 2013; DOT, CEA, and DOL, 2015; Furman and Giuliano, 2016).3
+A worker may be required to purchase parts of their uniform. For example, a worker may be
+asked to wear steel-toed boots. If the employer permits them to be worn off the job-site, then the
+worker may be asked to purchase the boots out of their own pocket.4
+Regulatory fees are one example of costs borne by workers when a job is created. Another
+example is the cost of relocation: once a job is accepted, a worker may have to move to begin
+work. A reasonable inference from the documented fall in worker mobility is a rise in relocation
+costs. Such a straightforward interpretation, though, may be incomplete. Amior (Forthcoming)
+provides evidence that workers move in exchange for large salaries that justify the cost of moving.
+Recent perspectives on mobility are provided by Kennan and Walker (2011), Molloy et al. (2016),
+Notowidigdo (2020), Schmutz, Sidibé, and Vidal-Naquet (2021), and Zabek (Forthcoming).
+Both examples are multifaceted. I take a straightforward approach to analyzing one-off jobcreation costs paid by workers. The representative experience for a worker is payment of a one-off
+fixed amount upon accepting a job.
+3 Model: A DMP Environment with One-Off Costs When a Job
+Is Created
+The environment shares the features of a conventional DMP model, including linear utility, workers with identical skills, random search, exogenous separations, wages determined as the outcome
+of Nash bargaining, and competitive job creation that drives the value of posting a vacancy to
+zero. In the model, firms’ costs to match with a worker include recruitment costs, which are paid
+each period an ad for a vacancy is posted. When there are fewer unemployed workers, a vacancy
+will take longer to fill, making the cost of recruitment proportional to the ratio of vacancies to
+unemployment. This ratio is commonly called labor-market tightness.5
+Job creation may also involve fixed matching costs paid by firms. These costs include “training, negotiation, and one-off administrative costs of adding a worker on the payroll” (Pissarides,
+2009, 1363). These costs are often ignored but once they are added to a standard DMP environment, Pissarides(2009) demonstrates how their addition can generate unemployment fluctuations
+in response to changes in productivity that match the magnitudes observed in data. Some evidence, though, suggests that workers may bear a significant fraction of one-off administrative
+costs, including relocation costs, training costs, tuition, foregone wages, and testing fees.
+Motivated by these features, I add fixed job-creation costs paid by workers to a standard DMP
+model. In addition to costs paid by workers, firms are required to pay turnover costs: hiring
+and firing costs. Hiring costs are emphasized by Pissarides (2009) and firing costs are studied by
+3Additional work on occupational licensing includes Kleiner and Todd (2009), Kleiner and Vorotnikov (2017),
+Johnson and Kleiner (2020), and Kleiner and Timmons (2020).
+4The policy on steel-toed boots comes from the Occupational Safety and Health Administration, OSHA, Occupational Safety and Health Standards, Standard No. 1910.132(h)(2), United States Department of Labor, https:
+//www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132.
+5Pissarides (2000) and Petrosky-Nadeau and Wasmer (2017) provide excellent textbook treatments. Essential
+contributions in this area are Pissarides (1985) and Mortensen and Pissarides (1994). Diamond (1982a,b) made fundamental earlier contributions. Economic Sciences Prize Committee (2010) provides further background.
+5
+Mortensen and Nagypál (2007).6
+A synthesis of these features is presented by Ljungqvist and Sargent (2017). And I build directly upon their work. In section 4, I establish that their fundamental decomposition, which
+reduces the elasticity of tightness with respect to productivity into two terms, holds not only for
+a Cobb–Douglas matching function but also for any reasonable matching function. One of the
+two terms subsumes costs paid by workers upon taking a job and this term is bounded by properties of a function that determines how many jobs are created when there are 𝑣 vacancies and 𝑢
+unemployed workers. When the matching function is not Cobb–Douglas, there is no consensus
+on its properties. I therefore estimate in section 5 another matching function using data that are
+adjusted for worker flows and how the JOLTS program records hires. Properties of this function
+determine the maximal influence that workers’ costs can have on how unemployment responds
+to changes in productivity.
+But first I describe the model environment
+Job Creation by Firms
+The value of a productive firm satisfies the Bellman equation
+The value of a productive firm equals flow output, 𝑦, less the flow wage payment, 𝑤, plus the
+continuation value. The continuation value is the value of a vacancy in the event of a separation, which occurs with probability 𝑠, in which case the firm must pay the layoff tax 𝜏, plus the
+value of continued production if a separation does not occur. The continuation value needs to be
+discounted. The intuition for the form of this equation is standard.
+The value of a vacancy is
+A recruiting firm becomes productive by posting a vacancy, which entails a flow cost of 𝑐. The
+following period the vacancy is unfilled with probability 1−𝑞 (𝜃) and filled with probability 𝑞 (𝜃).
+Upon a match, the firm must pay the fixed cost ℎ, which summarizes one-off administrative costs.
+Competitive efforts by the large measure of firms drives the value of a vacancy to zero. Using
+the competitive assumption in equation (2) implies
+
+The value of a productive job under competition is driven to the expected recruitment cost,
+𝑐/𝛽/𝑞 (𝜃), plus the fixed cost of job creation paid by firms.
+Substituting the expression for 𝐽 in (3) into (1) implies a job-creation condition for firms equal
+to
+The value of a productive firm equals the present value of flow profit, 𝑦 − 𝑤 less the expected
+present value of the layoff tax faced by the firm, 𝛽𝑠𝜏. Discounting includes the discount factor
+and the job-retention rate, 1 − 𝑠. The amount 𝛽𝑠𝜏 is subtracted from flow profits because “the
+invisible hand can never allocate” these resources to vacancy creation (Ljungqvist and Sargent,
+2017, 2642). The right side shows that a firm’s expected gain equals the expected cost of job
+creation.
+There are two components to this cost. The first is a proportional cost 𝑐 that rises in expectation with how long the firm expects the vacancy to be posted before it is filled. The second is
+the fixed cost emphasized by Pissarides (2009).
+In summary, equations (1) and (3) along with the zero-profit condition imply
+In 𝜃–𝑤 space, equation (5) is downward sloping (Pissarides, 2000, chapter 1). A higher wage
+makes posting vacancies less attractive for a firm. The relationship represents job creation by
+firms. A higher cost of job creation, ℎ, shifts this job-creation condition downward.
+Appendix 10 provides a derivation of these results.
+5 Calibration
+To gain insights into how costs of job creation affect labor-market volatility, I explore how the
+unemployment rate responds to changes in productivity. As a shortcut for analyzing model dynamics, I compare steady states, appealing to Shimer (2005, 39–40), who “documented that comparisons of steady states described by [the expression for 𝜂𝜃,𝑦] provide a good approximation
+to average outcomes from simulations of an economy subject to aggregate productivity shocks”
+(Ljungqvist and Sargent, 2017, 2636).
+Steady-state comparisons require assigning values to parameters. All except one are largely
+agreed upon by convention. The exception is the parameter that determines the elasticity of
+matching with respect to unemployment, 𝜂𝑀,𝑢. Proposition 2 establishes that 𝜂𝑀,𝑢 bounds Υ, one
+of the two multiplicative factors that determine volatility.
+A matching function that allows the elasticity of matching to vary with tightness is suggested
+by den Haan, Ramey, and Watson (2000):
+𝑀 (𝑢, 𝑣) = 𝜇
+𝑢𝑣
+(𝑢
+𝛾 + 𝑣
+𝛾
+)
+1/𝛾
+. (20)
+One motivation for this form is random contact among all agents. Imagine that an unemployed
+worker contacts all agents, including firms posting vacancies, randomly. The probability the other
+agent is a recruiting firm is 𝑣/(𝑢 + 𝑣), implying matches total 𝑢𝑣/(𝑢 + 𝑣). The nonlinear term can
+capture externalities from thick and thin markets (den Haan, Ramey, and Watson, 2000). The parameterization in (20) implies that 𝜂𝑀,𝑢, the elasticity of matching with respect to unemployment,
+is 𝜃
+𝛾
+/(1 + 𝜃
+𝛾
+).
+The nonlinear elasticity may well imply a large bound for Υ. Ryan (2023) documents that
+taking 𝛾 in (20) equal to 1.27, a value found in the literature, implies that the upper bound varies
+between between 2.006 and 11.862 when 𝜃 takes on values observed in US data since December
+2000. The number 11.862 suggests there is scope for fixed costs of job creation paid by workers
+to affect volatility in the labor market. But the value 1.27 was not estimated. Because this value
+has implications for whether ℓ affects volatility, I take up the task of estimating 𝛾.
+12
+The estimation uses readily available data on hires from the US Bureau of Labor Statistics’ Job
+Openings and Labor Turnover Survey. The value for hires records all hires made within a month,
+even though the worker may not remain employed at the end of the month. The unadjusted data
+will therefore bias job-finding higher. I adjust the data to account for this bias. As far as I know,
+this adjustment to the measure of hires has not been done before and this is the first estimate of
+the matching technology in (20).
+Section 5.1 briefly discusses conventional parameter values, section 5.3 discusses the bias
+adjustment, and section 5.3 covers the estimation of 𝛾.
+5.1 Standard Parameters Agreed upon by Convention
+Except for the parameter that determines the elasticity of matching with respect to unemployment, choices about parameter values are standard. I adopt many of the values used by Pissarides
+(2009), who considers job-creation costs paid only by firms.
+The value of output, 𝑦, produced by each firm’s constant-returns-to-scale technology is 1. The
+value of nonwork, 𝑧, which includes leisure and compensation from unemployment insurance, is
+0.71. I follow convention and set 𝜙 = 0.5, which is a common choice that specifies workers and
+firms split any surplus generated from a match.
+The model period is one day. This choice, as noted by Ljungqvist and Sargent (2017, 2639,
+FN 6), prevents job-finding and -filling rates from falling outside of 0 and 1. The interest rate is
+set so that the monthly interest rate is 0.004 and the separation rate is set so that the monthly
+separation rate is 0.036.
+The average level of tightness observed in the US between 1960 and 2006 is 0.72 and the
+average monthly job-finding probability observed over the same period is 0.594. With 𝜃 = 0.72,
+I target the monthly job-finding probability by adjusting the parameter for matching efficiency,
+𝜇 in equation (20), using the estimate of 𝛾 presented in section 5.3. The implied unemployment
+rate is 5.7 percent.
+The cost of advertising vacancies and recruiting, 𝑐, is implied by two features. First, its value
+reflects the normalization of output. Second, its value is determined by the steady-state condition
+in (12).
+These values agree with Pissarides (2009). In a baseline calibration, where ℎ = ℓ = 𝜏 =
+0, the equilibrium wage is 0.988. Pissarides (2009, 1351) points out that this represents a flow
+percentage gain of (0.988/0.71 − 1) × 100 percent = 39 percent when a worker transitions from
+unemployment into a job. Which is substantially more than some parameterizations where 𝑧
+nearly equals the wage. These nearly-equal parameterizations rely on the story of competitive
+markets in which workers are indifferent between work and nonwork
+5.2 A New Measure of Transition Probabilities That Corrects for Time Aggregation and How the JOLTS Program Records Hires
+One way to estimate the matching function in (20) uses the homogeneity of 𝑀 to write the model
+in terms of job finding and therefore tightness. Measuring rates of job finding, though, is challenging. One challenge is the data, which are available only at discrete, monthly intervals, even
+though workers can transition between employment and unemployment continuously throughout the month. Another challenge is the way matches or hires are reported. Data on the number
+13
+of hires are available from the US Bureau of Labor Statistics’ Job Openings and Labor Turnover
+Survey or the JOLTS program. The JOLTS program reports all hires within a month, including
+hires who are fired before the month ends.
+Using the unadjusted hires measure would bias the probability of finding a job upwards. The
+rate of job finding in the model is 𝑓 (𝜃) ≡ 𝑚 (𝑢, 𝑣) /𝑢. Unlike in the model, however, hires recorded
+by the JOLTS program do not necessarily work the following period. And even though the probability of separating from a job is low, the number of people who find a job each month is large.
+To account for this biasing feature of the data, I model the process of job transitions, using
+techniques developed by Shimer (2012), to uncover instantaneous transition rates between employment and unemployment. The adjusted probabilities of job finding for the month can then
+be uncovered.
+7 Discussion and Outstanding Questions
+The model and numerical work predict that volatility in the labor market should decline as the
+prevalence and magnitude of ℓ-type costs increase. Evidence supports this prediction. The prevalence of such costs has increased over time (DOT, CEA, and DOL, 2015; Kleiner and Krueger, 2013,
+figure 1, S177). And Barnichon (2010), looking at data from the period 1948–2008, documents how
+a positive productivity fluctuation lowered unemployment on average early in the sample and in creased unemployment on average later in the sample.13 The model I presented offers a partial
+explanation for why the cyclical component of unemployment and the cyclical component of
+productivity are less negatively correlated; although, at this point, the link is just suggestive and
+more evidence is needed.
+In addition, the perspective of costs paid by workers I have presented raises a number of
+questions for future research.
+Mechanisms that make unemployment respond realistically to realistic changes in productivity will also make unemployment respond meaningfully to changes in unemployment-insurance
+benefits. [Equation (12) reveals that 𝜃 responds to changes in 𝑦 and changes in 𝑧 symmetrically.]
+Yet, data suggest unemployment does not respond as much to the significant differences in benefits observed across countries. This dilemma was pointed out by Costain and Reiter (2008).
+Rogerson, Visschers, and Wright (2009) offer a solution: a fixed factor of production like managerial talent or home production. If the factor is abundant in certain states but scarce in others, then
+unemployment responses can be muted for large changes in benefits. Does Rogerson, Visschers,
+and Wright’s (2009) fixed-factor solution interact with fixed costs of job creation?
+In general, unemployment insurance raises a trade-off between smoothing consumption, which
+increases welfare, and distorting search for work, which raises unemployment. How does Andersen’s (2016) efficiency–equity locus change in the presence of job-creation costs?
+The assumption of Nash bargaining is not essential. As Plotnikov (2019) emphasizes, building
+on Farmer’s (2008) insights, any wage that divides the surplus is feasible. Plotnikov (2019) replaces
+the Nash sharing rule with a rule that specifies agents’ beliefs about their wealth to determine
+aggregate demand and thus wages, output, and unemployment. Do beliefs interact with turnover
+costs and job-creation costs paid by workers?
+Shifting the focus to costs of occupational regulation, many features of registration, certification, and licensure are left unmodeled. Work by Tumen (2016) on job search using standard means
+versus social networks and by Flórez (2019) on employment in an informal sector demonstrates
+how selection matters. In their models composition across sectors is determined endogenously.
+How would outcomes in the labor market change if workers selected into sectors where work
+was regulated differently?
+Several important features of the labor market are left unmodeled here too. Maury and Tripier
+(2019) emphasize the importance large firms and disruptions to productivity that induce firing.
+Does intra-firm bargaining and firing change in the presence of fixed costs? Do policies that
+encourage participation in the labor market like the earned income tax credit, which Regev and
+Strawczynski (2019) study in the presence of risk-averse workers, interact with costs of job creation? Do these costs affect entrepreneurial decisions like those modeled in Gries, Jungblut, and
+Naudé (2016)? Does the presence of a binding minimum wage, which happens in the economies
+studied by Brecher and Gross (2019) and Brecher and Gross (2020), interact with costs of job creation? In contrast, a minimum wage may not reduce labor demand in a model that assigns heterogeneous workers to produce with heterogeneous capital, as Correa and Parro (2020) demonstrate,
+which raises the question: how are workers assigned to tasks when creating a job costs a fixed
+amount?
+13How can a positive productivity fluctuation increase unemployment? A positive innovation to productivity
+increases wages and thus demand. But if firms’ prices are stuck, then the increase in demand is less than what firms
+can produce given the increase in productivity and size of the workforce. The value of a worker is low and firms do
+not recruit workers, which raises unemployment. Barnichon (2010) presents a model with these features.
+24
+Guerrazzi (2023) takes up the question of optimal capital accumulation when “hiring is a
+labor-intensive activity” (Guerrazzi, 2023, footnote 1, 2). Instead of posting vacancies, large firms
+allocate part of their workforce to job creation (Shimer, 2010). A wage rule is available that
+achieves optimal capital accumulation and labor allocation in a decentralized equilibrium. Capital
+and transitional dynamics are significant parts of the model. How would transitional dynamics
+change if workers paid a one-off cost upon taking a job or if firms were forced to pay a cost to
+switch a worker from production to recruitment?
+8 Conclusion
+Creating jobs takes resources. When workers pay a cost upon accepting a job, wages are lower,
+which increases the value of posting a vacancy and lowers unemployment. The result exposes a
+previously unrecognized but important variable that affects wages. Going beyond the scope of
+this paper, this arrangement benefits firms and could explain why workers more often have to
+pay costs like fees to take an exam before starting work.
+Costs paid by workers also reduce volatility in the labor market; although, there is limited
+scope for this channel. The conclusion is based on a generalization of Ljungqvist and Sargent’s
+(2017) fundamental decomposition that allows the matching function to take any reasonable form.
+The decomposition reduces the elasticity of tightness with respect to productivity into two terms.
+One of the two terms subsumes costs paid by workers upon taking a job. This term is bounded by
+consensus, but this judgment is based on the estimation of a matching function undertaken in this
+paper. The estimation uses data that are adjusted for worker flows and how the JOLTS program
+records hires. The estimated elasticity of matching with respect to unemployment varies with
+tightness but the variation is small. The updated bound limits the scope of influence that workers’
+costs can have on unemployment volatility. Nevertheless, updated data used to assess the Shimer
+puzzle or unemployment-volatility puzzle are consistent with the increased prevalence of costs
+paid by workers.
+Finally, I close by suggesting that costs paid by workers upon accepting a job have far-reaching
+implications. The regulation of occupations is a growing “phenomenon” (Kleiner and Krueger,
+2013, S182). By adding features of regulation into a DMP model, I have taken a step towards understanding how such regulation affects dynamics in the labor market. Likewise, the flourishing
+of workers depends on their ability to take opportunities. Workers may need help to overcome
+barriers like the cost of moving to accept jobs.
