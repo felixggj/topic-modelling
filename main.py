@@ -83,7 +83,7 @@ if __name__ == '__main__':
     print('\nCoherence Score: ', coherence_lda)
 
     # Visualizing the topics and saving to an HTML file
-    vis = pyLDAvis.gensim_models.prepare(topic_model.ldamodel, doc_term_matrix, topic_model.dictionary)
+    vis = pyLDAvis.gensim_models.prepare(topic_model.ldamodel, doc_tfidf_matrix, topic_model.dictionary)
     pyLDAvis.save_html(vis, 'lda_visualization.html')
 
     # Load and predict topics for a new document from a .txt file
