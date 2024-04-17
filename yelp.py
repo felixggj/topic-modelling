@@ -68,7 +68,7 @@ if __name__ == '__main__':
     nltk.download('punkt')
 
     # Path to your CSV file
-    csv_file_path = 'yelp_reviews.csv'  # Update the path to your CSV file
+    csv_file_path = 'yelp.csv'  # Update the path to your CSV file
 
     # Load documents from CSV file
     train_docs, test_docs = load_documents_from_csv(csv_file_path)
