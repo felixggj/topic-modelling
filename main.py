@@ -2,12 +2,14 @@ import os
 import nltk
 import gensim
 import string
+import pyLDAvis.gensim_models
+
 from gensim import corpora, models
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 from gensim.models.coherencemodel import CoherenceModel
-import pyLDAvis.gensim_models
+from gensim.models import TfidfModel
 
 
 class TopicModel:
@@ -25,13 +27,20 @@ class TopicModel:
         return normalized
 
     def prepare_corpus(self, documents):
+        # Existing cleaning and tokenizing logic
         doc_clean = [self.clean(doc).split() for doc in documents]
         self.dictionary = corpora.Dictionary(doc_clean)
         doc_term_matrix = [self.dictionary.doc2bow(doc) for doc in doc_clean]
-        return doc_term_matrix
+        
+        # Create a TF-IDF model based on the document term matrix
+        self.tfidf_model = TfidfModel(doc_term_matrix)
+        # Apply the TF-IDF model to the document term matrix
+        doc_tfidf_matrix = [self.tfidf_model[doc] for doc in doc_term_matrix]
+        
+        return doc_tfidf_matrix
 
-    def train_lda_model(self, doc_term_matrix, num_topics=5, passes=10000):
-        self.ldamodel = gensim.models.ldamodel.LdaModel(doc_term_matrix, num_topics=num_topics, id2word=self.dictionary, passes=passes)
+    def train_lda_model(self, doc_tfidf_matrix, num_topics=5, passes=10000):
+        self.ldamodel = gensim.models.ldamodel.LdaModel(doc_tfidf_matrix, num_topics=num_topics, id2word=self.dictionary, passes=passes)
 
     def predict_topic(self, text):
         preprocessed_text = self.clean(text)
@@ -61,8 +70,8 @@ if __name__ == '__main__':
     topic_model = TopicModel()
 
     # Prepare the corpus and train the LDA model
-    doc_term_matrix = topic_model.prepare_corpus(documents)
-    topic_model.train_lda_model(doc_term_matrix)
+    doc_tfidf_matrix = topic_model.prepare_corpus(documents)
+    topic_model.train_lda_model(doc_tfidf_matrix)
 
     # Print the topics
     for idx, topic in topic_model.ldamodel.print_topics(-1):
