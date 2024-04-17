@@ -53,22 +53,21 @@ if __name__ == '__main__':
     nltk.download('wordnet') 
     nltk.download('punkt')
 
-    # Load documents from .txt files for training
-    training_directory = 'train/'  # Update the path to your training files directory
+    # Loading documents from .txt files for training
+    training_directory = 'train/'
     documents = load_documents(training_directory)
 
-    # Create an instance of TopicModel
+    # Creating an instance of TopicModel
     topic_model = TopicModel()
 
-    # Prepare the corpus and train the LDA model
+    # Calling the prepare corpus function to clean and prepare the documents
     doc_term_matrix = topic_model.prepare_corpus(documents)
     topic_model.train_lda_model(doc_term_matrix)
 
-    # Print the topics
     for idx, topic in topic_model.ldamodel.print_topics(-1):
         print('Topic: {} \nWords: {}'.format(idx, topic))
 
-    # Evaluate model coherence
+    # Evaluating model coherence
     coherence_model_lda = CoherenceModel(model=topic_model.ldamodel, texts=[doc.split() for doc in documents], dictionary=topic_model.dictionary, coherence='c_v')
     coherence_lda = coherence_model_lda.get_coherence()
     print('\nCoherence Score: ', coherence_lda)
@@ -77,7 +76,7 @@ if __name__ == '__main__':
     vis = pyLDAvis.gensim_models.prepare(topic_model.ldamodel, doc_term_matrix, topic_model.dictionary)
     pyLDAvis.save_html(vis, 'lda_visualization.html')
 
-    # Load and predict topics for a new document from a .txt file
+    # Predicting the topics for our selected test document
     test_document_path = 'test/american_salaries.txt'  # Update the path to your test document
     with open(test_document_path, 'r', encoding='utf-8') as file:
         new_doc = file.read()
